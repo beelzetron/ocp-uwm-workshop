@@ -1,0 +1,13 @@
+apiVersion: monitoring.coreos.com/v1
+kind: ServiceMonitor
+metadata:
+  name: eap-app
+  namespace: monitor-jboss-eap
+spec:
+  endpoints:
+  - interval: 30s
+    port: prometheus
+    scheme: http
+  selector:
+    matchLabels:
+      application: eap-app
