@@ -109,3 +109,5 @@ To test it, open a web browser and open the `simple-app` route, use `/err` as th
 Hit the refresh button a couple of times, after a few seconds you should see the alert is firing on the web console.
 
 ![alert firing](../assets/simple-app-alert-firing.png)
+
+Proceed with the next section: [Monitor a Jboss application](../2-Monitor-Jboss-EAP/README.md)

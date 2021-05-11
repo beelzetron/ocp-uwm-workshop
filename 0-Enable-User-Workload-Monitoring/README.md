@@ -103,3 +103,5 @@ Grant the required roles to the `developer` user:
 oc policy add-role-to-user monitoring-edit developer
 oc policy add-role-to-user admin developer
 ```
+
+Proceed with the next section: [Monitor a simple application](../1-Monitor-simple-application/README.md)
