@@ -342,7 +342,7 @@ Now we are ready to create the `ServiceMonitor` object that will configure Prome
         scheme: http
       selector:
         matchLabels:
-        application: eap-app
+          application: eap-app
     ```
 
 4. Click on _Create_
